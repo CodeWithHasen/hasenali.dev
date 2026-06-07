@@ -225,7 +225,6 @@ textarea::placeholder {
     background-color: #1a1a1a;
     border-top: 1px solid #333;
     color: #fff;
-    padding: 15px 0;
 }
 
 .footer-brand {
@@ -489,12 +488,15 @@ textarea::placeholder {
 
     /* FOOTER */
 
-    .footer-brand {
-        font-size: 14px;
+    .footer-brand,
+    .footer-copy {
+        text-align: center;
+        display: block;
+        width: 100%;
     }
 
     .footer-copy {
-        font-size: 13px;
+        margin-top: 6px;
     }
 
     /* SOCIAL ICONS */

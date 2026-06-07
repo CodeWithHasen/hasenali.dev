@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PracticeProjects from "./PracticeProjects";
 import SEO from "../components/SEO";
 
 export default function Projects() {
@@ -27,71 +26,71 @@ export default function Projects() {
                 {[   
                     {
                         title: "EduCore ERP — School Management System",
-                        image: require("../assets/images/EduCore.png"),
-                        description: "<b>Currently In Development... </b> Full Stack Enterprise School ERP System built using Angular 19 Standalone Architecture, Angular Material, NgRx State Management, Node.js, Express.js, MongoDB, JWT Authentication, REST APIs, Role-Based Access Control, Lazy Loaded Modules, and Responsive Dashboard UI.",
+                        image: require("../assets/images/EduCore.PNG"),
+                        description: "Currently In Development... Full Stack Enterprise School ERP System built using Angular 19 Standalone Architecture, Angular Material, NgRx State Management, Node.js, Express.js, MongoDB, JWT Authentication, REST APIs, Role-Based Access Control, Lazy Loaded Modules, and Responsive Dashboard UI.",
                         visitLink: "#",
                         githubLink: "#"
                     },
 
                     {
                         title: "NeoBank Pro — Angular Banking Application",
-                        image: require("../assets/images/NeoBank.png"),
-                        description: "<b>Currently In Development... </b> Enterprise Banking Application built with Angular 19 Standalone Architecture, NgRx State Management, Angular Material, RxJS, Signals, REST APIs, JWT Authentication, Responsive Dashboard UI, and scalable financial application architecture.",
+                        image: require("../assets/images/NeoBank.PNG"),
+                        description: "Currently In Development... Enterprise Banking Application built with Angular 19 Standalone Architecture, NgRx State Management, Angular Material, RxJS, Signals, REST APIs, JWT Authentication, Responsive Dashboard UI, and scalable financial application architecture.",
                         visitLink: "#",
                         githubLink: "#"
                     },
                     {
                         title: "Zomato Clone – Angular Food Delivery Web Application", 
-                        image: require("../assets/images/home-ZomatoClone.png"),
+                        image: require("../assets/images/home-ZomatoClone.PNG"),
                         description: "Zomato Clone is a responsive food delivery web application inspired by Zomato, developed using Angular 19, Angular Material, Bootstrap, SCSS, Firebase Hosting, JSON Server, and REST API integration. It includes restaurant listings, cart management, authentication pages, routing, lazy loading, and reusable Angular components.", 
                         visitLink: "https://zomato-clone-angular-76a35.web.app/",
                         githubLink: "https://github.com/CodeWithHasen/zomato-clone-angular"
                     },
                     {
                         title: "LinkedIn Clone – Professional Social Networking Web Application",
-                        image: require("../assets/images/home-LinkedInClone.png"),
+                        image: require("../assets/images/home-LinkedInClone.PNG"),
                         description: "LinkedIn Clone is a responsive professional networking web app inspired by LinkedIn, built using React.js, Redux Toolkit, React Router, Bootstrap, SCSS, and Firebase Hosting. It features authentication pages, responsive feeds, profile dropdowns, like/dislike functionality, and reusable React components.",
                         visitLink: "https://linkedin-clone-hasen.web.app/",
                         githubLink: "https://github.com/CodeWithHasen/linkedin-clone"
                     },
                     {
                         title: "Smart Shopping – A Modern E-Commerce Web App", 
-                        image: require("../assets/images/shopper.png"),
+                        image: require("../assets/images/shopper.PNG"),
                         description: "Smart Shopping is a responsive e-commerce web app inspired by Shopper.com, built using Angular, TypeScript, Bootstrap, jQuery, CSS3, and HTML5. It features data binding, structural directives, reusable components, and REST API integration for real-time product data, delivering a modern shopping experience across desktop and mobile devices.", 
                         visitLink: "https://shopper-angular-template.web.app/",
                         githubLink: "https://github.com/CodeWithHasen/angular-shopper-template"
                     },
                     {
                         title: "Netflix UI Clone Built with Angular", 
-                        image: require("../assets/images/netflix_angular.png"),
+                        image: require("../assets/images/netflix_angular.PNG"),
                         description: "Netflix Clone is a responsive front-end web application inspired by Netflix, built using Angular, TypeScript, Bootstrap, CSS3, and HTML5. It features a modern UI layout, responsive design, reusable components, and structured Angular architecture for creating a real-world streaming platform interface.", 
                         visitLink: "https://ngflix2025.netlify.app/",
                         githubLink: "https://github.com/CodeWithHasen/netflix-clone-angular"
                     },
                     {
                         title: "Creative Developer Portfolio", 
-                        image: require("../assets/images/MyPortfolio.png"),
+                        image: require("../assets/images/MyPortfolio.PNG"),
                         description: "A responsive portfolio built with React, JavaScript, Bootstrap, showcasing projects, skills, experience, and contact details with smooth navigation.", 
                         visitLink: "https://hasenali-dev.netlify.app/",
                         githubLink: "https://github.com/CodeWithHasen/hasenali.dev"
                     },
                     {
                         title: "I-Shop: A Modern E-commerce Platform",
-                        image: require("../assets/images/IShop.png"),
+                        image: require("../assets/images/IShop.PNG"),
                         description: "A comprehensive MERN Stack single-page web application for seamless shopping experience. The application integrates a React frontend with a Node.js and Express backend, and utilizes MongoDB for data management.",
                         visitLink: "https://i-smartshop.web.app/",
                         githubLink: "https://github.com/CodeWithHasen/i-smartshop"
                     },
                     {
                         title: "StreamFlix: A Netflix-Inspired Streaming UI",
-                        image: require("../assets/images/Netflix.png"),
+                        image: require("../assets/images/Netflix.PNG"),
                         description: "A modern, Netflix-style UI e-commerce frontend using React.js, Bootstrap, and jQuery, and Formik, it offers smooth navigation, responsive design, dynamic UI elements, and validated forms for a seamless user experience.",
                         visitLink: "https://netflixreactdemo.web.app/",
                         githubLink: "https://github.com/CodeWithHasen/netflixreactdemo"
                     },
                     {
                         title: "ShopSphere: Your Ultimate Online Store",
-                        image: require("../assets/images/shoppingonline.png"),
+                        image: require("../assets/images/shoppingonline.PNG"),
                         description: "An interactive e-commerce store fetching product data dynamically using Fake Store API and provides users with a seamless shopping experience. Built using HTML, Bootstrap, and JavaScript, this project showcases essential features of an online store.",
                         visitLink: "https://shoppingonlinestore.netlify.app/",
                         githubLink: "https://github.com/CodeWithHasen/Shopping-Online"

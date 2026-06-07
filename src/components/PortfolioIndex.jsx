@@ -109,7 +109,6 @@ export default function PortfolioIndex({ children }) {
                 <div className="container">
                     <div className="d-flex flex-column flex-md-row justify-content-between align-items-center">
                         <span className="footer-brand">Hasen Ali | Full Stack Developer</span>
-                        
                         <span className="footer-copy">&copy; 2025 - {new Date().getFullYear()} All Rights Reserved</span>
                     </div>
                 </div>

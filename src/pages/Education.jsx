@@ -1,6 +1,5 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
-import Experience from "./Experience";
 import SEO from "../components/SEO";
 
 export default function Education() {

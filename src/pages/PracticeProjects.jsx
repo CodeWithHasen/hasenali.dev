@@ -1,61 +1,60 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Contact from "./Contact";
 import SEO from "../components/SEO";
 
 const practiceProjects = [
     
     {
         title: "Bright Future Public School",
-        image: require("../assets/images/bfps-home.png"),
+        image: require("../assets/images/bfps-home.PNG"),
         description: "Developed a fully responsive school website using HTML5, CSS3, Bootstrap 5, JavaScript and jQuery. Implemented admission enquiry form validation and dynamic UI interactions. Created SEO-friendly pages including Home, About, Faculty, Courses, Gallery, Events and Contact. Integrated Google Maps, social media links and custom 404 error handling.",
         link: "https://bright-future-public-school.netlify.app/",
     },
     {
         title: "AmazinCart: An Amazon-Like Shopping Experience",
-        image: require("../assets/images/AmazonClone.png"),
+        image: require("../assets/images/AmazonClone.PNG"),
         description: "A front-end Amazon-inspired e-commerce website using HTML and CSS for UI recreation and layout of the Amazon homepage, including features like product listings, search bar functionality, and responsive design. This project demonstrates my proficiency in front-end development and attention to detail in creating a visually appealing and user-friendly web application.",
         link: "https://amazonclone-hasen.netlify.app/",
     },
     {
         title: "Traffic Control: A Smart Signal Simulation",
-        image: require("../assets/images/TrafficLight.png"),
+        image: require("../assets/images/TrafficLight.PNG"),
         description: "A traffic light system simulation using JavaScript, HTML, and CSS. Three lights—red, yellow, and green—are activated one by one in a 3-second cycle. After red, the yellow light turns on, followed by green. When one light is active, the other two remain off, simulating a realistic traffic light sequence.",
         link: "https://trafficlightwithtimer.netlify.app/",
     },
     { 
         title: "Hasen IT Technologies – Empowering Your Future in Tech",
-        image: require("../assets/images/hasenittechnologies.png"),
+        image: require("../assets/images/hasenittechnologies.PNG"),
         description: "Hasen IT Technologies is a premier training institute dedicated to equipping learners with cutting-edge skills in web development, programming, and software technologies.",
         link: "https://hasenitechnologies.netlify.app/"
     },
     { 
         title: "Instant & Accurate Currency Converter",
-        image: require("../assets/images/currencyconverter.png"),
+        image: require("../assets/images/currencyconverter.PNG"),
         description: "Easily convert currencies with real-time exchange rates. Our currency converter provides precise and up-to-date rates, ensuring seamless financial transactions for travel, business, and investments.",
         link: "https://currencyrateconverter.netlify.app/"
     },
     {
         title: "Ultimate RPS Challenge: Test Your Luck & Strategy",
-        image: require("../assets/images/rockpaperscissors.png"),
+        image: require("../assets/images/rockpaperscissors.PNG"),
         description: "A classic Rock Paper Scissors game built with HTML, CSS, and JavaScript. It captures user choices via event listeners and generates random computer choices with Math.random(). Conditional logic determines the winner or a draw, updates scores, and displays messages, making the game interactive and engaging.",
         link: "https://gamers-play-rockpaperscissors.netlify.app/",
     },
     {
         title: "Tic-Tac-Toe Master: Play with AI & Friends",
-        image: require("../assets/images/tictactoe.png"),
+        image: require("../assets/images/tictactoe.PNG"),
         description: "A simple Tic Tac Toe game built using JavaScript, HTML, and CSS. It features simple logic, uses arrays, booleans, DOM manipulation, and event listeners. The game includes enable/disable functionality and logic to determine a winner or a draw, displaying appropriate messages for each outcome.",
         link: "https://gamers-play-tic-tac-toe.netlify.app/",
     },
     { 
         title: "Online Job Application Form",
-        image: require("../assets/images/jobapplicationform.png"),
+        image: require("../assets/images/jobapplicationform.PNG"),
         description: "This is a simple Online Job Application Form designed using HTML and CSS for UI design and practice purposes. The form includes sections for Personal Information, Education Details, Work Experience, and Other Job Preferences, providing a structured layout for users to input their details.",
         link: "https://onlinejobapplications.netlify.app/"
     },
     { 
         title: "The Great India - A Tribute to India's Legacy",
-        image: require("../assets/images/thegreatIndia.png"),
+        image: require("../assets/images/thegreatIndia.PNG"),
         description: "The Great India is a tribute to India's rich history, culture, and progress through images, videos, and inspiring stories.",
         link: "https://indiathegreat.netlify.app/"
     },

@@ -31,7 +31,6 @@ export default function Projects() {
                         visitLink: "#",
                         githubLink: "#"
                     },
-
                     {
                         title: "NeoBank Pro — Angular Banking Application",
                         image: require("../assets/images/NeoBank.png"),
@@ -95,6 +94,13 @@ export default function Projects() {
                         visitLink: "https://shoppingonlinestore.netlify.app/",
                         githubLink: "https://github.com/CodeWithHasen/Shopping-Online"
                     },
+                    {
+                        title: "Bright Future Public School",
+                        image: require("../assets/images/bfps-home.PNG"),
+                        description: "Developed a fully responsive school website using HTML5, CSS3, Bootstrap 5, JavaScript and jQuery. Implemented admission enquiry form validation and dynamic UI interactions. Created SEO-friendly pages including Home, About, Faculty, Courses, Gallery, Events and Contact. Integrated Google Maps, social media links and custom 404 error handling.",
+                        visitLink: "https://bright-future-public-school.netlify.app/",
+                        githubLink: "https://github.com/CodeWithHasen/bright-future-public-school"
+                    }
                     
                 ].map((project, index) => (
                     <div key={index} className="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">

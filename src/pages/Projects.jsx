@@ -26,7 +26,7 @@ export default function Projects() {
                 {[   
                     {
                         title: "EduCore ERP — School Management System",
-                        image: require("../assets/images/EduCore.PNG"),
+                        image: require("../assets/images/EduCore.png"),
                         description: "Currently In Development... Full Stack Enterprise School ERP System built using Angular 19 Standalone Architecture, Angular Material, NgRx State Management, Node.js, Express.js, MongoDB, JWT Authentication, REST APIs, Role-Based Access Control, Lazy Loaded Modules, and Responsive Dashboard UI.",
                         visitLink: "#",
                         githubLink: "#"
@@ -34,7 +34,7 @@ export default function Projects() {
 
                     {
                         title: "NeoBank Pro — Angular Banking Application",
-                        image: require("../assets/images/NeoBank.PNG"),
+                        image: require("../assets/images/NeoBank.png"),
                         description: "Currently In Development... Enterprise Banking Application built with Angular 19 Standalone Architecture, NgRx State Management, Angular Material, RxJS, Signals, REST APIs, JWT Authentication, Responsive Dashboard UI, and scalable financial application architecture.",
                         visitLink: "#",
                         githubLink: "#"

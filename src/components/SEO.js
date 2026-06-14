@@ -25,10 +25,11 @@ export default function SEO({
       <meta name="author" content="Hasen Ali" />
       <meta name="robots" content="index, follow" />
       <meta name="theme-color" content="#121212" />
-
       <link rel="canonical" href={finalUrl} />
-      
 
+      <meta name="application-name" content="Hasen Ali Portfolio" />
+      <meta name="apple-mobile-web-app-title" content="Hasen Ali Portfolio" />
+      
       {/* Open Graph */}
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
@@ -38,6 +39,7 @@ export default function SEO({
       <meta property="og:site_name" content="Hasen Ali Portfolio" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
+      <meta property="og:locale" content="en_US" />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -46,30 +48,39 @@ export default function SEO({
       <meta name="twitter:image" content={image} />
       <meta name="twitter:url" content={finalUrl} />
       <meta name="twitter:creator" content="@Ali786Hasen" />
+      <meta name="twitter:site" content="@Ali786Hasen" />
 
       {/* Structured Data */}
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "worksFor": {
-            "@type": "Organization",
-            "name": "Freelance"
-          },
-          "hasOccupation": {
+        <script type="application/ld+json">
+          {JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+
+              "name": "Hasen Ali",
+              "jobTitle": "Full Stack Developer",
+
+              "url": finalUrl,
+              "image": image,
+
+              "description": description,
+
+              "worksFor": {
+              "@type": "Organization",
+              "name": "Freelance"
+            },
+
+            "hasOccupation": {
             "@type": "Occupation",
             "name": "Full Stack Developer"
           },
-          
-          name: "Hasen Ali",
-          jobTitle: "Full Stack Developer",
 
-          url: finalUrl,
-          image,
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Jain University"
+          },
 
-          description,
-
-          knowsAbout: [
+          "knowsAbout": [
             "React",
             "Angular",
             "JavaScript",
@@ -79,17 +90,31 @@ export default function SEO({
             "MERN Stack",
             "MEAN Stack",
             "Responsive Web Design",
-            "REST APIs",
+            "REST APIs"
           ],
 
-          sameAs: [
+          "sameAs": [
             "https://github.com/CodeWithHasen",
             "https://www.linkedin.com/in/hasen-ali-5a672991/",
             "https://www.youtube.com/@CodeWithHasen",
             "https://x.com/Ali786Hasen",
-            "https://www.instagram.com/ali786.hasen/",
-          ],
-        })}
+            "https://www.instagram.com/ali786.hasen/"
+          ]
+        },
+
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+
+          "name": "Hasen Ali Portfolio",
+          "url": "https://hasenali-dev.netlify.app/",
+
+          "author": {
+            "@type": "Person",
+            "name": "Hasen Ali"
+          }
+        }
+      ])}
       </script>
     </Helmet>
   );

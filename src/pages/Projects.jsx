@@ -69,7 +69,7 @@ export default function Projects() {
                     {
                         title: "Creative Developer Portfolio", 
                         image: require("../assets/images/MyPortfolio.PNG"),
-                        description: "A responsive portfolio built with React, JavaScript, Bootstrap, showcasing projects, skills, experience, and contact details with smooth navigation.", 
+                        description: "Developed a responsive portfolio website using React.js, JavaScript, Bootstrap, and React Router to showcase projects, technical skills, and professional experience. Implemented SEO optimization, responsive UI/UX design, smooth navigation, and deployed the application using GitHub and Netlify.", 
                         visitLink: "https://hasenali-dev.netlify.app/",
                         githubLink: "https://github.com/CodeWithHasen/hasenali.dev"
                     },

@@ -77,7 +77,7 @@ export default function Experience() {
                     </div>
                     <div className="timeline-content">
                         <h4>React & Angular Projects (In Progress)</h4>
-                        <p><strong>2025 – Present</strong></p>
+                        <p><strong>2024 – Present</strong></p>
                         <ul>
                             <li>Developing dynamic web applications using React, Angular, JavaScript and TypeScript.</li>
                             <li>Implementing reusable components, state management, and API integration.</li>

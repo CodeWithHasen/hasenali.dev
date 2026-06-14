@@ -34,7 +34,7 @@ export default function Home() {
                         </button>
                         <ul className="dropdown-menu">
                             <li>
-                                <a className="dropdown-item text-success" href="https://drive.google.com/file/d/1Pd6RrtSBZ92Lu5QQw8W-RbGEcKKgqzzS/view" target="_blank" rel="noopener noreferrer">
+                                <a className="dropdown-item text-success" href="https://drive.google.com/file/d/1kNmIvxr5AOMsKzOkXjGKiHYS9dQ0uFFK/view" target="_blank" rel="noopener noreferrer">
                                 <strong>View Resume</strong>
                                 </a>
                             </li>
